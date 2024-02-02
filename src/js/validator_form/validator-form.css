@@ -1,0 +1,78 @@
+
+.card-validator {
+  height: 100%;
+  width: 100%;
+}
+
+.payment-system-list {
+ display: flex;
+  height: 100px;
+  width: 100%;
+}
+
+.payment-system {
+  display: inline;
+  box-sizing: border-box;
+  height: 100%;
+  width: 20%;
+  border: 0.1em solid white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  filter: saturate(0%);
+}
+
+div.valid-type {
+  filter: none;
+}
+
+.payment-system-visa {
+  background-image: url('../../img/visa-4-logo-svgrepo-com.svg');
+}
+
+.payment-system-mastercard {
+  background-image: url('../../img/mastercard-6-logo-svgrepo-com.svg');
+}
+
+.payment-system-unionpay {
+  background-image: url('../../img/unionpay-svgrepo-com.svg');
+}
+
+.payment-system-jcb {
+  background-image: url('../../img/jcb-svgrepo-com.svg');
+}
+
+.payment-system-mir {
+  background-image: url('../../img/mir-svgrepo-com.svg');
+}
+
+.validating-container {
+  height: 50%;
+  display: flex;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.validating-form {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 40%;
+}
+
+.input-text-form {
+  width: 70%;
+  margin-left: 0%;
+  border-radius: 5px;
+}
+
+.invalid-type-form {
+  border: 3px solid red;
+}
+
+.validate-button {
+  width: 25%;
+  margin-right: 0;
+  margin-left: 2%;
+  border-radius: 5px;
+}
